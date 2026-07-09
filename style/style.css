@@ -1,3 +1,9 @@
+* {
+    margin: 0 auto;
+}
+body {
+    max-width: 1551px;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -41,4 +47,32 @@ button {
 }
 button a {
     color: white;
+}
+.hero {
+    background-image:url(/assets/banner.jpg);
+    background-size: 100% 100%;
+    width: 1551px;
+    height: 786px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 80px;
+    width: 959px;
+    height: 95px;
+    color: white;
+    margin-top: 10px;
+}
+.hero p {
+    width: 829px;
+    height: 108px;
+    font-size: 22px;
+    color: white;
+}
+.hero h1 p {
+    padding-top: 500px;
 }
