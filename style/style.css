@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 132px;
+    height: 44px;
+}
+.logo img {
+    width: 32px;
+    height: 32px;
+}
+.logo h1 {
+    max-width: 94px;
+    height: 22px;
+    font-size: 20px;
+}
+.menu ul  {
+    display:flex ;
+    list-style: none;
+    gap: 24px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #575757;
+}
+button {
+    width: 192px;
+    height: 56px;
+    font-size: 15px;
+    background-color: #1D4ED8;
+    color: white;
+    border: 1px solid #1D4ED8;
+    border-radius: 10px;
+}
+button a {
+    color: white;
+}
