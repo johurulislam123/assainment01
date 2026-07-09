@@ -1,6 +1,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    margin: 23.5px 115.5px;
 }
 .logo {
     display: flex;
