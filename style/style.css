@@ -1,5 +1,6 @@
 * {
     margin: 0 auto;
+    font-family:  "Poppins", sans-serif;
 }
 body {
     max-width: 1551px;
@@ -76,6 +77,10 @@ button a {
 .hero h1 p {
     padding-top: 500px;
 }
+.speaker {
+    max-width: 1440px;
+    height: 1279px;
+}
 .speaker h1 {
     margin: 80px 403px 56px;
     text-align: center;
@@ -85,9 +90,11 @@ button a {
 .cards {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    row-gap: 32px;
-    column-gap: 32px;
-    border: 1px solid white;
+    gap: 32px;
+}
+.card {
+        border: 1px solid #E5E7EB;
+        border-radius: 13px;
 }
 .card p{
     font-size: 12px;
@@ -95,11 +102,126 @@ button a {
     padding: 24px  24px 8px;
 }
 .card h3 {
+    color: #0D1B2A;
     font-size: 20px;
     padding-left: 24px;
 }
 .card span {
     font-size: 14px;
+    color: #575757;
     padding-left: 24px ;
-    margin-top: 8px;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 30px;
+
 }
+
+.price-title {
+    display: flex;
+    flex-direction: column;
+}
+.price-title h1 {
+    font-size: 48px;
+    color: #0D1B2A;
+}
+.price-title p {
+    font-size: 18px;
+    margin-top: 10px;
+    columns: #575757;
+}
+.price-bar {
+    max-width: 1440px;
+    height: 668px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price-package {
+    display: flex;
+    margin-top: 48px;
+    width: 1320px;
+    height: 492px;
+    gap: 24px;
+}
+.package {
+    width: 370px;
+    height: 440px;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 32px;
+}
+
+.package-title {
+    margin-bottom: 20px;
+}
+.package p {
+    font-size: 13px;
+    color: #888888;
+}
+.package h1 {
+    font-size: 44px;
+    color: #0D1B2A;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.package span {
+    font-size: 13px;
+    color: #888888;
+}
+.package-benefit ul li {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.package-benefit ul ::marker{
+    color: #2563EB;
+}
+.price-btn {
+    color: #2563EB;
+    border: 1px solid #2563EB;
+    border-radius: 10px;
+    padding: 11px 106px;
+}
+.package a {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+}
+.package2 {
+    background-color: #0D1B2A;
+    color: white;
+}
+.package2 p {
+    color: #93C5FD;
+}
+.package2 h1 {
+    color: white;
+}
+.package2 a {
+    background-color: #2563EB;
+    color: white;
+}
+.package3 {
+    background-color: #E5E7EB;
+}
+.package3 a {
+    color: black;
+    border-color: black;
+}
+/* .package:hover {
+    background-color: #0D1B2A;
+    color: #FFFFFF;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.package:hover h1 {
+    color: white;
+}
+.package:hover  a {
+    background-color: #2563EB;
+    color: white;
+}
+.package:hover p {
+    color: #93C5FD;
+} */
+
+
