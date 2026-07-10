@@ -50,7 +50,7 @@ button a {
     color: white;
 }
 .hero {
-    background-image:url(/assets/banner.jpg);
+    background-image:url(../assets/banner.jpg);
     background-size: 100% 100%;
     width: 1551px;
     height: 786px;
