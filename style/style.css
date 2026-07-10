@@ -5,6 +5,10 @@
 body {
     max-width: 1551px;
 }
+
+/* ==========================
+   navbar section start
+========================== */
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -50,6 +54,14 @@ button {
 button a {
     color: white;
 }
+/* ==========================
+    navbar section End 
+========================== */
+
+
+/* ==========================
+    hero section start
+========================== */
 .hero {
     background-image:url(../assets/banner.jpg);
     background-size: cover;
@@ -82,9 +94,14 @@ button a {
     font-size: 19px;
     padding: 25px 72px;
 }
-/* .hero h1 p {
-    padding-top: 500px;
-} */
+/* ==========================
+   hero section End
+========================== */
+
+
+/* ==========================
+   Speaker section Start
+========================== */
 .speaker {
     max-width: 1440px;
     height: 1279px;
@@ -122,9 +139,15 @@ button a {
     display: block;
     padding-top: 8px;
     padding-bottom: 30px;
-
 }
+/* ==========================
+   Speaker section End
+========================== */
 
+
+/* ==========================
+   Price section Start
+========================== */
 .price-title {
     display: flex;
     flex-direction: column;
@@ -217,10 +240,13 @@ button a {
     color: black;
     border-color: black;
 }
+/* ==========================
+    price section End 
+========================== */
 
 
 /* ==========================
-   WHY ATTEND
+   Something Missing start
 ========================== */
 
 .why-attend {
@@ -330,12 +356,13 @@ button a {
     font-size: 14px;
     font-weight: 600;
 }
-
-
 /* ==========================
-      REGISTER CTA
+   Something Missing End
 ========================== */
 
+/* ==========================
+      REGISTER footer start
+========================== */
 .register-cta {
     padding: 50px 0 120px;
     text-align: center;
@@ -406,3 +433,6 @@ button a {
     font-size:14px;
     transition:.3s;
 }
+/* ==========================
+      REGISTER footer End
+========================== */
